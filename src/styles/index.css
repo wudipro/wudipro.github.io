@@ -12,18 +12,20 @@
 :root {
   color-scheme: light dark;
 
-  --color-bg: #f3f2f2;
-  --color-bg: light-dark(#f3f2f2, #1a1817);
-  --color-surface: #eae9e9;
-  --color-surface: light-dark(#eae9e9, #252221);
-  --color-text: #201e1d;
-  --color-text: light-dark(#201e1d, #e8e6e3);
+  /* Light mode uses a crisp, cool-white canvas with a faint blue surface.
+     It stays softer than pure white without the grey cast of the old palette. */
+  --color-bg: #fbfdff;
+  --color-bg: light-dark(#fbfdff, #1a1817);
+  --color-surface: #f1f6f9;
+  --color-surface: light-dark(#f1f6f9, #252221);
+  --color-text: #17252c;
+  --color-text: light-dark(#17252c, #e8e6e3);
   /* Link colour, and the brighter tone links move to on hover. In dark mode
      the pair is inverted: the resting colour is the calmer of the two. */
-  --color-link: #006786;
-  --color-link: light-dark(#006786, #58c8ea);
-  --color-accent: #0088b0;
-  --color-accent: light-dark(#0088b0, #8fdcf5);
+  --color-link: #006b8f;
+  --color-link: light-dark(#006b8f, #58c8ea);
+  --color-accent: #007ba3;
+  --color-accent: light-dark(#007ba3, #8fdcf5);
   /* Hairlines and rules, derived from the text colour so they track the theme */
   --color-divider: color-mix(in srgb, var(--color-text) 16%, transparent);
   --color-rule: color-mix(in srgb, var(--color-text) 25%, transparent);

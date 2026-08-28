@@ -9,9 +9,9 @@ export const site = {
   // ── First thing to change ───────────────────────────────────────────────
   // A bar at the top of the page saying the content is placeholder. It is on
   // for the template's own demo; turn it off once the page is about you.
-  demoNotice: true,
+  demoNotice: false,
   // Where the template lives, linked from that bar.
-  repo: "https://github.com/siruizou2005/academic-homepage",
+  // repo: "https://github.com/siruizou2005/academic-homepage",
 
   // ── Deployment ──────────────────────────────────────────────────────────
   // Absolute URL of the deployed site, no trailing slash. Used for canonical
@@ -19,7 +19,7 @@ export const site = {
   //   custom domain      → "https://your-domain.com"
   //   user/org GitHub Pages → "https://your-name.github.io"
   //   project GitHub Pages  → "https://your-name.github.io"  (set `base` too)
-  url: "https://example.com",
+  url: "https://wudi.pro",
 
   // Sub-path the site is served from. Leave "/" for a custom domain or a
   // <your-name>.github.io repository. For a project repository published at
@@ -35,36 +35,31 @@ export const site = {
   // One or two sentences for search results. Say who you are and what you
   // work on — this is what Google and, increasingly, LLMs quote back.
   description:
-    "Jane Doe is a Ph.D. student in Economics at Northfield University, " +
-    "working on market design, computational social science and " +
-    "text-as-data methods.",
+    "Di Wu holds a Ph.D. in Computer Science and studies blockchain security, " +
+    "decentralized systems, payment channels, DeFi, and cross-chain protocols. " +
+    "He is currently seeking postdoctoral research opportunities.",
 
   // Shorter line for link previews (WeChat, X, LinkedIn, Slack).
   socialDescription:
-    "Ph.D. student in Economics at Northfield University. Market design, " +
-    "computational social science, text-as-data.",
+    "Ph.D. in Computer Science specializing in blockchain and systems " +
+    "security; currently seeking postdoctoral research opportunities.",
 
   // ── Structured data (schema.org Person) ─────────────────────────────────
   // Lets search engines and AI assistants state plainly who you are, where you
   // are, and what you work on. Everything else in the JSON-LD block is derived
   // from src/data.js.
   seo: {
-    jobTitle: "Ph.D. Student in Economics",
-    // Your current institution. `sameAs` should be its official homepage.
-    affiliation: {
-      name: "Northfield University",
-      sameAs: "https://example.edu/",
-    },
     // Where you are based. Optional — delete the block to leave it out.
     // `country` is a two-letter ISO code.
-    location: { locality: "Northfield", country: "US" },
+    location: { locality: "Hangzhou", country: "CN" },
     // Research keywords, ordered from most to least central.
     knowsAbout: [
-      "Economics",
-      "Market Design",
-      "Computational Social Science",
-      "Text as Data",
-      "Natural Language Processing",
+      "Decentralized Systems",
+      "Blockchain Security",
+      "Payment Channels",
+      "DeFi Security",
+      "Cross-chain Protocols",
+      "Digital Payment Infrastructure",
     ],
   },
 
