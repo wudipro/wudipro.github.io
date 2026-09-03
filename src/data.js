@@ -90,6 +90,12 @@ export const publications = [
     venue:
       "<em>34th USENIX Security Symposium (USENIX Security 25)</em>, " +
       "Seattle, WA, August 2025, pp. 4053–4072",
+    links: [
+      {
+        label: "Paper",
+        href: "https://www.usenix.org/conference/usenixsecurity25/presentation/wu-di",
+      },
+    ],
   },
   {
     title: "PIRANA: Faster Multi-query PIR via Constant-weight Codes",
@@ -98,6 +104,9 @@ export const publications = [
     venue:
       "<em>2024 IEEE Symposium on Security and Privacy (SP)</em>, " +
       "San Francisco, CA, May 2024, pp. 4315–4330",
+    links: [
+      { label: "Paper", href: "https://doi.org/10.1109/SP54263.2024.00039" },
+    ],
   },
   {
     title: "LookAhead: Preventing DeFi Attacks via Unveiling Adversarial Contracts",
@@ -107,6 +116,9 @@ export const publications = [
     venue:
       "<em>FSE 2025 Research Papers</em>, Vol. 2, Association for Computing " +
       "Machinery, 2025, FSE083, pp. 1847–1869",
+    links: [
+      { label: "Paper", href: "https://doi.org/10.1145/3729353" },
+    ],
   },
 ];
 
